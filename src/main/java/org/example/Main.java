@@ -5,7 +5,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        MyList lst = new MyArrayList();
+        MyList lst = new SinglyLinkedList();
 
         lst.add(5);
         lst.add(10);
